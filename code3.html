@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App - User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(55, 103, 70);
+            text-align: center;
+            margin: 500;
+            height:100vh;
+            
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color:#e9e3e6;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+        .language-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .profile-content {
+            text-align: center;
+            padding: 20px;
+        }
+        img {
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #4caf50;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .qr-code-container,
+        .password-container,
+        .login-logout-container {
+            margin-top: 20px;
+        }
+        .rounded-corners {
+        border-radius: 10px;
+        }
+        button {
+            background-color: #4c4eaf;
+            color:  #ffffff;
+            padding: 15px 32px;
+            border-radius: 40px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            align:center;
+            text-decoration:none;
+            display: inline-block;
+
+        }
+        select {
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Language selection -->
+        <div class="language-container">
+            <label for="language">Choose Language:</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="es">Kannada</option>
+                <!-- Add more language options as needed -->
+            </select>
+        </div>
+
+        <div class="profile-content">
+            <!-- Profile Headline -->
+            <h1>User Profile</h1>
+
+            <!-- User profile picture -->
+            <img src="C:\Users\shree\OneDrive\Documents\report\20.jpg" alt="User Profile Picture" width="100">
+
+            <!-- User information table -->
+            <table>
+                <tr>
+                    <th>Full Name</th>
+                    <td>Raj Kulkarni</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>rajkulk@email.com</td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td>+91 8765432768</td>
+                </tr>
+                <tr>
+                    <th>Bank Balance</th>
+                    <td>50,000.00</td>
+                </tr>
+                <!-- Add more rows for additional user information -->
+            </table> 
+            <!-- QR Code feature -->
+            <div class="qr-code-container">
+                <button onclick="window.location.href='code4.html'" style="background-color: #4caf50;color: #fff;" class="rounded-corners">  MY  QR CODE    </button>
+                <!-- Add code for the QR code feature using JavaScript -->
+            </div>
+
+            <!-- Change Password -->
+            <div class="password-container">
+                <button onclick="window.location.href='index.html'" style="background-color: #4caf50;color: #fff;" class="rounded-corners">Home</button>
+                <!-- Add code for the change password feature using JavaScript -->
+            </div>
+
+            <!-- Login/Logout -->
+            <div class="login-logout-container">     
+                <button id="loginBtn" onclick="window.location.href='code1.html'" style="background-color: #4caf50;color: #fff;" class="rounded-corners">Logout</button>
+                <button id="logoutBtn" style="display: none;" onclick="logout()">Logout</button>
+                <!-- Add code for the login and logout features using JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function generateQRCode() {
+            // Placeholder for QR code functionality
+            alert("Generating QR Code... (Placeholder)");
+            // Add code here to generate a QR code using a library or API
+        }
+
+        function changeLanguage() {
+            // Placeholder for language change functionality
+            alert("Language changed... (Placeholder)");
+            // Add code here to change the language using localization or other methods
+        }
+
+        function changePassword() {
+            // Placeholder for change password functionality
+            alert("Changing password... (Placeholder)");
+            // Add code here to implement the change password feature
+        }
+
+        function login() {
+            // Placeholder for login functionality
+            alert("Logging in... (Placeholder)");
+            document.getElementById("loginBtn").style.display = "none";
+            document.getElementById("logoutBtn").style.display = "inline";
+            // Add code here to implement the login feature
+        }
+
+        function logout() {
+            // Placeholder for logout functionality
+            alert("Logging out... (Placeholder)");
+            document.getElementById("loginBtn").style.display = "inline";
+            document.getElementById("logoutBtn").style.display = "none";
+            // Add code here to implement the logout feature
+        }
+    </script>
+</body>
+</html>

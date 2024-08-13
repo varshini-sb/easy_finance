@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  background-color: #f0f0f0;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: rgb(55,103,73);
+  color: white;
+}
+
+nav ul li{
+  padding: 0 12px;
+}
+.brand img{
+  width: 80px;
+  padding: 0 8px;
+  border-radius: 18%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+#id1{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(14.avif);
+  background-size: cover;
+  color:white;
+
+  text-align: center;
+}
+#id2{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(16.jpg);
+  background-size: cover;
+  color: white;
+  
+}
+#id3{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(18.png);
+  background-size: cover;
+  color: white;
+  font-size: medium;
+}
+#id4{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(4.jpg);
+  background-size: cover;
+  color: white;
+  
+}
+#id5{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(12.avif);
+  background-size: cover;
+  color: white;
+  
+}
+#id6{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(19.png);
+  background-size: cover;
+  
+  color: white;
+  
+}
+#id7{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(7.jpg);
+  background-size: cover;
+  color: white;
+  
+}
+#id8{
+  width: 40px;
+  height: 50px;
+  padding:7%;
+  background-image: url(8.jpg);
+  background-size: cover;
+  color: white;
+  
+}
+
+
+textarea{
+  margin-left: 50px;
+  border-radius: 10%;
+  font-size: 100%;
+  border: 3px solid black;
+  
+  
+}
+
+#textInput {
+  width: 70px;
+  height: 50px;
+  background-color: black;
+  font-size: 100px;
+  align-content: left;
+}
+
+#speakTextButton {
+  font-size: 24px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color:black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+a.a1{
+  margin-left: 130px;
+}
+a.a2{
+  margin-left: 220px;
+}
+a.a3{
+  margin-left: 210px;
+}
+a.a4{
+  margin-LEFT: 210px;
+}
+a.a5{
+  margin-left: 110px;
+}
+a.a6{
+  margin-left:200px ;
+}
+a.a7{
+  margin-left:240px ;
+  margin-right: 220px;
+}
+#a.a8{
+  margin-left: 290px;
+  margin-right: 160px;
+  /* margin-block-end: auto; */
+}
+button{
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+buttoo{
+  margin-right: 0px;
+}

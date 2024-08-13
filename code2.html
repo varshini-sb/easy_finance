@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Page Animation</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file -->
+  <style>
+.body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(55, 103, 70);
+  font-family: Arial, sans-serif;
+}
+
+.welcome-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+/* Animation styles */
+.animate-text {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 3s ease forwards;
+}
+.animate-image {
+    opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 3s ease forwards;  
+}
+.container{
+    text-align: center;
+    
+}
+.rounded-corners{
+    border-radius: 10px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+</head>
+<body>
+  <div class="welcome-page">
+    <h1 class="animate-text">Welcome to Trusty Pay!</h1>
+    <img src="C:\Users\shree\OneDrive\Documents\report\wel.jpg" class="animate-image"> 
+    <p class="animate-text">Enjoy your experience...</p>
+  </div>
+
+  <div class="container">
+    <button type="button" style="width:100px; height: 45px;" class="rounded-corners" onclick="window.location.href='index.html'">Click here</button>
+  </div>
+  
+</body>
+</html>
